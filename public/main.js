@@ -1,4 +1,6 @@
-import * as THREE from 'three';
+import * as THREE from './three.module.js'; // Changed to use import instead of require
+
+// Note: require is not defined in the browser
 
 let scene, camera, renderer, cube;
 
