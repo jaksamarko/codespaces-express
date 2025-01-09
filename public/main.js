@@ -1,4 +1,4 @@
-import * as THREE from './three.module.js'; // Changed to use a relative path to the three.js library
+const THREE = require('./three.module.js'); // Changed to use require instead of import
 
 let scene, camera, renderer, cube;
 
