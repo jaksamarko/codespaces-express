@@ -1,5 +1,7 @@
 const THREE = require('./three.module.js'); // Changed to use require instead of import
 
+// Note: require is not defined in the browser
+
 let scene, camera, renderer, cube;
 
 function init() {
