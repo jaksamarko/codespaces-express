@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import * as THREE from './three.module.js'; // Changed to use a relative path to the three.js library
 
 let scene, camera, renderer, cube;
 
