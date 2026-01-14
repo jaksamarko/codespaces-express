@@ -11,3 +11,13 @@ To run this application:
 ```
 npm start
 ```
+
+## Public Access
+
+This application is configured to bind to `0.0.0.0`, making it accessible from outside localhost. When running in GitHub Codespaces or other cloud environments, the application will be accessible via the public URL provided by the platform.
+
+The port can be configured using the `PORT` environment variable:
+
+```
+PORT=8080 npm start
+```
